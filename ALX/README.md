@@ -11,6 +11,7 @@ But if you want to [build](https://docs.docker.com/engine/reference/commandline/
 
 Currently the services/applications installed:
   - mysql-server
+  - nodejs
 
 MYSQL
 -----
