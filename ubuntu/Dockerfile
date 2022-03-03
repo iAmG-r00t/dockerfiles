@@ -29,7 +29,7 @@ RUN ln -snf /usr/share/zoneinfo/$CONTAINER_TIMEZONE /etc/localtime && \
 RUN apt-get update -yqq && \
     apt-get install -yqq \
     locales locales-all \
-    nano git sudo curl wget tzdata && \
+    nano bat vim git sudo curl wget tzdata && \
     locale-gen en_US.UTF-8
 
 # update, upgrade and clean
